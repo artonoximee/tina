@@ -121,6 +121,14 @@ a:hover {
   padding-bottom: 20px;
 }
 
+.git-icon {
+  height: .75em;
+}
+
+.git-slash {
+  font-weight: 300;
+}
+
 .btn-github {
   background-color: #efeeeb;
   padding: 8px 16px;
@@ -128,7 +136,7 @@ a:hover {
   font-size: .7em;
   color: #000000;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .btn-github:hover {
