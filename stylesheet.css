@@ -7,7 +7,7 @@
 
 body {
   background-color: #000000;
-  color: #ffffff;
+  color: #efeeeb;
   font-family: 'Inter', sans-serif;
 }
 
@@ -66,9 +66,38 @@ body {
   align-items: center;
   font-size: 1.2em;
   font-weight: 600;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .skill-card-header > img {
   width: 20px;
+}
+
+.github-card {
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #efeeeb;
+  border-radius: 12px;;
+}
+
+.github-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.btn-github {
+  background-color: #efeeeb;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: .7em;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 300;
 }
