@@ -66,6 +66,13 @@ a:hover {
   font-size: 1em;
 }
 
+.txt-md-last {
+  width: 34%;
+  margin-top: 25vh;
+  margin-bottom: 5vh;
+  font-size: 1em;
+}
+
 .skill-card {
   width: 50%;
   margin-bottom: 30px;
@@ -146,13 +153,29 @@ a:hover {
   width: 20px;
 }
 
+.btn-cta {
+  width: 100%;
+  background-color: #efeeeb;
+  color: #000000;
+  padding: 10px 5vw;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-cta:hover {
+  background-color: #9e9a96;
+}
+
 .footer {
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
+  font-size: .8em;
   line-height: 200%;
 }
 
