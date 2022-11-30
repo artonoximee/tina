@@ -40,7 +40,7 @@ a:hover {
 }
 
 .txt-lg {
-  width: 33%;
+  width: 34%;
   margin-top: 40vh;
   font-size: 1.5em;
 }
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .txt-md {
-  width: 33%;
+  width: 34%;
   margin-top: 25vh;
   margin-bottom: 25vh;
   font-size: 1em;
@@ -112,4 +112,28 @@ a:hover {
 
 .btn-github:hover {
   background-color: #9e9a96;
+}
+
+.team-card {
+  width: 50%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #000000;
+  color: #efeeeb;
+  border-radius: 12px;
+  border: 2px dashed #efeeeb;
+}
+
+.team-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.team-card-header > img {
+  width: 20px;
 }
