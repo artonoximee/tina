@@ -143,6 +143,11 @@ a:hover {
   background-color: #9e9a96;
 }
 
+.chevron-icon {
+  height: .75em;
+}
+
+
 .team-card {
   width: 50%;
   margin-bottom: 30px;
