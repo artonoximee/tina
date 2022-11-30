@@ -16,6 +16,7 @@ body {
   width: 40px;
   top: 40px;
   left: calc((100vw - 40px) / 2);
+  mix-blend-mode: difference;
 }
 
 .container {
@@ -28,6 +29,18 @@ body {
 
 .txt-lg {
   width: 33%;
-  margin-top: 45vh;
+  margin-top: 40vh;
   font-size: 1.5em;
+}
+
+.img-intro {
+  width: 50%;
+  margin-top: 25vh;
+  border-radius: 12px;
+}
+
+.txt-md {
+  width: 33%;
+  padding-top: 25vh;
+  font-size: 1em;
 }
