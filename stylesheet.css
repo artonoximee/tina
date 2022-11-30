@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.logo-tina {
+  position: fixed;
+  width: 40px;
+  top: 40px;
+  left: calc((100vw - 40px) / 2);
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-lg {
+  width: 33%;
+  margin-top: 45vh;
+  font-size: 1.5em;
+}
