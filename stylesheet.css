@@ -79,7 +79,10 @@ a:hover {
   padding: 20px;
   background-color: #efeeeb;
   color: #000000;
-  border-radius: 12px;;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .skill-card-header {
@@ -102,7 +105,10 @@ a:hover {
   padding: 20px;
   background-color: #1a1a1a;
   color: #efeeeb;
-  border-radius: 12px;;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .github-card-header {
@@ -137,6 +143,9 @@ a:hover {
   color: #efeeeb;
   border-radius: 12px;
   border: 2px dashed #efeeeb;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .team-card-header {
@@ -185,4 +194,28 @@ a:hover {
 
 .footer > p {
   text-align: right;
+}
+
+@media only screen and (max-width: 925px) {
+  .txt-lg, .img-intro, .txt-md, .txt-md-last, .skill-card, .github-card, .team-card, .footer {
+    width: 75%;
+  }
+
+  .skill-card-header, .team-card-header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .github-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .skill-card-header > img, .github-card-header > p, .team-card-header > img {
+    margin-bottom: 15px;
+  }
+
+  .txt-md-last {
+    margin-bottom: 10vh;
+  }
 }
